@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+.topnav {
+    overflow: hidden;
+    background-color: slategray;
+    text-align: center;
+    display: inline;
+    
+    
+}
+body {
+    background: url("./Photos/Beer-Background.jpeg");
+}
+ul.no-bullet {
+    list-style-type: none
+
+}
+/* li a {
+    color: ;
+} */
+.center-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center {
+    text-align: center;
+}
+.img-link-size {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    background-color: black;
+}
+p {
+    background-color: slategray;
+    display: table;
+}
+ul li{
+    background-color: darkslateblue;
+    margin: 5px;
+    display: table;
+}
+ol li{
+    background-color: darkslateblue;
+    display: table;
+    margin: 5px ;
+    content: 5px;
+}
+.link-color{
+    color: darkmagenta;
+}
+.link-color2 {
+    color: darkgoldenrod;
+}
+a {
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    font-size: 1.5em;
+
+}
